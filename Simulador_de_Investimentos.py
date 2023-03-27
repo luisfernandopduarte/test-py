@@ -3,7 +3,7 @@ print('Seja bem-vindo ao simulador de investimentos\n')
 cap = float(input('Quanto você tem para investir hoje?: '))
 ap = float(input('Aplicação mensal: '))
 n = int(input('Por quantos meses?: '))
-i = float(input('Rentabilidade ao ano: '))
+i = float(input('Rentabilidade ao ano (%): '))
 
 #Transformando taxa anual para mensal.
 #Formula: i=((FV/PV)^(1/n))-1
